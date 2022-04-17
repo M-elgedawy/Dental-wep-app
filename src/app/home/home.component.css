@@ -1,0 +1,32 @@
+.home{
+  background-image: url(/assets/images/img1.png);
+  width:100%;
+  height:100vh;
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position:relative;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: hsl(240, 56%, 25%);
+  opacity: .3;
+  z-index: 3;
+}
+.head-title{
+ background-color: rgba(241, 236, 236,.3);
+ position: relative;
+ z-index: 33;
+border-radius: 20px;
+
+}
+@media (max-width:899px){
+  .head-title{
+    font-size: 30px;
+  }
+}
+

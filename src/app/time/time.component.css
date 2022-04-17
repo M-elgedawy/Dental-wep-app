@@ -1,0 +1,14 @@
+
+.modalbtn{
+ position: absolute;
+ top:60px;
+ right:300px;
+
+}
+@media(max-width:899px){
+ .modalbtn{
+   top:59px;
+   right:230px;
+   width:13px;
+ }
+}
